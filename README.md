@@ -1,16 +1,74 @@
-# weather_app
+# Weather App Flutter
 
-A new Flutter project.
+A Weather application built with Flutter for learning purposes. This project demonstrates the implementation of clean architecture principles and modern Flutter development practices.
 
-## Getting Started
+## 🎯 Learning Objectives
 
-This project is a starting point for a Flutter application.
+This project was created as a learning exercise to understand:
 
-A few resources to get you started if this is your first Flutter project:
+- Flutter BLoC pattern for state management
+- Clean Architecture implementation in Flutter
+- API integration and data handling
+- Modern Flutter development practices
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 🚀 Features
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Display current weather information
+- Show hourly weather forecasts
+- Clean and intuitive user interface
+- Cross-platform support (iOS, Android, Web, Desktop)
+
+## 🛠 Tech Stack
+
+- **Framework:** Flutter
+- **State Management:** Flutter BLoC
+- **API Integration:** HTTP package
+- **Code Generation:** Freezed
+- **JSON Handling:** json_serializable
+- **Other Tools:** intl for formatting
+
+## 📱 Screenshots
+
+[Add your app screenshots here]
+
+## 🏗 Project Structure
+
+```
+lib/
+├── bloc/         # Business Logic Components
+├── data/         # Data handling and repositories
+├── models/       # Data models
+├── presentation/ # UI Components
+│   ├── screens/
+│   └── widgets/
+└── main.dart
+```
+
+## 🚀 Getting Started
+
+1. Clone the repository
+
+```bash
+git clone [your-repo-url]
+```
+
+2. Install dependencies
+
+```bash
+flutter pub get
+```
+
+3. Run the app
+
+```bash
+flutter run
+```
+
+## 📝 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+## 🤝 Acknowledgments
+
+- This project was created for learning purposes
+- Thanks to the Flutter community for great packages and resources
